@@ -1,0 +1,51 @@
+.price-container {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  position: relative;
+  top: -80px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  box-shadow: 10px 5px 5px transparent ;
+}
+
+.bronze{
+    background-color: #cd7f32;
+}
+.gold{
+    background-color: #d4af37;
+}
+.silver{
+    background-color: #d4d4d4;
+}
+.price-title {
+  font-size: 1.5em;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.price-price {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+.price-desc {
+  text-align: center;
+}
+.price-btn {
+  color: white;
+  height: 40px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
